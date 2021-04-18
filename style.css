@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #a6e7ed, #e1f2cb);
+  font-family: 'Arvo', serif;
+  color: #662200;
+}
+
+.navbar {
+   background: linear-gradient(to right, #a6e7ed, #e1f2cb);
+   background-size: cover;
+}
+
+.navbar:hover {
+   background-image: url(./images/seagulls-gif.gif);
+   background-position: center;
+}
+
+
+.container {
+  width: 90%;
+  height: 100vh;
+  background: linear-gradient(to right, #a6f7ff, #e3f3dd);
+}
+
+#container-top {
+  margin-top: 56px;
+  background: linear-gradient(to right, #a6e7ed, #e1f2cb);
+  height: 91vh;
+  width: 80%;
+}
+
+#container-top .row-top-heading {
+  padding-top: 110px;
+}
+
+.coconut-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 80%
+}
+
+.sun {
+  display: none;
+}
+
+.top-cloud {
+  height: 4.5rem;
+  width: 8rem;
+  opacity: 50%;
+  position: absolute;
+  right: 80px;
+  top: 100px;
+}
+
+.bottom-cloud {
+  height: 5.5rem;
+  width: 11rem;
+  opacity: 70%;
+  position: absolute;
+  left: 50px;
+  bottom: 400px;
+}
+
+.wave {
+  position: absolute;
+  left: 35px;
+  bottom: -75px;
+  opacity: 80%;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 10vh;
+}
+
+h2 {
+  font-size: 5vh;
+}
+
+li {
+  list-style-type: none;
+}
+
+.fab {
+  font-size: 40px;
+  padding: 0 3px;
+  color: #662200;
+}
+
+.react-btn:hover, .contact-btn:hover {
+  background: url(./images/seawave-gif.gif);
+  background-size: cover;
+  border-style: none;
+}
+
+.personal-img {
+  border: 3px solid #662200;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+/*assigned classes*/
+
+.embossed {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 
+    inset 0 2px 3px rgba(255,255,255,0.1),
+    inset 0 -3px 3px rgba(0,0,0,0.1),
+    0 1px 1px rgba(255,255,255,0.1);
+}
+
+.embossed-text {
+   text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5),
+                2px -2px 0 rgba(255, 255, 255, 0.5);
+}
+
+/*media queries*/
+
+/*small device*/
+/*@media (min-width:100px) {
+
+}*/
+
+
+
+/*----------------------------------------------------------------------------*/
+/*medium device*/
+/*@media (min-width:768px) {
+  body {
+    background: linear-gradient(to right, #a6e7ed, #e1f2cb);
+    font-family: 'Arvo', serif;
+    color: #662200;
+  }
+
+  .navbar {
+   background: linear-gradient(to right, #a6e7ed, #e1f2cb);
+ }
+
+ .container {
+  width: 80%;
+  height: 100vh;
+  padding: 0 auto;
+  margin: 0 auto;
+  background: linear-gradient(to right, #a6f7ff, #e3f3dd);
+}
+
+#container-top {
+  margin-top: 56px;
+  background: linear-gradient(to right, #a6e7ed, #e1f2cb);
+  height: 100vh;
+}
+
+.coconut-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.top-cloud {
+  height: 5.5rem;
+  width: 11rem;
+  opacity: 60%;
+  position: absolute;
+  right: 28vw;
+  top: 5vw;
+}
+
+.bottom-cloud{
+  height: 5.5rem;
+  width: 11rem;
+  opacity: 60%;
+  position: absolute;
+  left: 28vw;
+  bottom: 80vw;
+}
+
+h1{
+  font-family: 'Great Vibes', cursive;
+  font-size: 10vh;
+}
+
+h2{
+  font-size: 5vh;
+}
+
+li {
+  list-style-type: none;
+}
+
+.content-personal li:before {
+  content: '\1f41a'; margin-left: -20px; margin-right: 10px;
+} 
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fab {
+  font-size: 40px;
+  padding: 0 3px;
+}
+
+.btn-outline-warning {
+  border: 2px solid rgba(43, 113, 252, 0.5);
+  padding: 1px 6px;
+  margin: 6px;
+  background-color: rgba(225, 242, 203, 0.8);
+  color: #000;
+  font-size: 4.3vw;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffa270;
+  border: 2px solid #ffa270;
+}
+
+.content-personal {
+  height: 60vh;
+  background-color: linear-gradient(to right, #a6e7ed, #e1f2cb);
+}
+}*/
+
+
+
+/*----------------------------------------------------------------------------*/
+/*large device*/
+@media (min-width:992px) {
+}
