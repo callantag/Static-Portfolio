@@ -90,16 +90,14 @@ li {
   height: auto;
 }
 
-#container-tools {
-  padding-top: 95px;
-}
 .fab {
   font-size: 40px;
   padding: 0 3px;
   color: #662200;
 }
 
-.react-btn:hover, .contact-btn:hover {
+
+.react-btn, .contact-btn {
   background: url(./images/seawave-gif.gif);
   background-size: cover;
   border-style: none;
@@ -107,12 +105,12 @@ li {
 
 .personal-img {
   border: 3px solid #662200;
+  width: 80%;
 }
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
-
 
 /*-----------------------------------------------------------------------------*/
 
