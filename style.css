@@ -11,25 +11,19 @@ body {
 }
 
 .navbar {
-   background: linear-gradient(to right, #a6e7ed, #e1f2cb);
-   background-size: cover;
-}
-
-.navbar:hover {
-   background-image: url(./images/seagulls-gif.gif);
-   background-position: center;
+   background: linear-gradient(to right, #66ccff, #f4fad9);
 }
 
 .container {
   width: 90%;
-  height: calc(100vh - 57px);
+  height: calc(100vh - 56px);
   background: linear-gradient(to right, #a6f7ff, #e3f3dd);
 }
 
 #container-top {
   margin-top: 56px;
   background: linear-gradient(to right, #a6e7ed, #e1f2cb);
-  height: 91vh;
+  height: calc(100vh - 56px);
   width: 80%;
 }
 
@@ -42,10 +36,6 @@ body {
   left: 0;
   bottom: 0;
   opacity: 80%
-}
-
-.sun {
-  display: none;
 }
 
 .top-cloud {
@@ -91,7 +81,7 @@ li {
 }
 
 .fab {
-  font-size: 40px;
+  font-size: 50px;
   padding: 0 3px;
   color: #662200;
 }
@@ -106,10 +96,33 @@ li {
 .personal-img {
   border: 3px solid #662200;
   width: 80%;
+  border-radius: 0.5rem;
+}
+
+.react-img, .api-img {
+  border: 2px solid #662200;
 }
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
+}
+
+.btn-lg {
+  height: 2.5rem;
+  padding: 0;
+}
+
+.tools-row, .aboutme-row, .contact-row {
+  height: calc(100vh - 56px);
+}
+
+.img-tool {
+  border: 1px solid #662200; 
+  border-radius: 0.25rem; 
+  background: rgba(255, 245, 102, 0.2);
+  margin: 0.3rem;
+  height: 4.5rem;
+  width: 4.5rem;
 }
 
 /*-----------------------------------------------------------------------------*/
@@ -139,105 +152,108 @@ a:link, a:visited, a:hover, a:active {
 
 
 /*----------------------------------------------------------------------------*/
+
 /*medium device*/
-/*@media (min-width:768px) {
-  body {
-    background: linear-gradient(to right, #a6e7ed, #e1f2cb);
-    font-family: 'Arvo', serif;
-    color: #662200;
-  }
 
-  .navbar {
-   background: linear-gradient(to right, #a6e7ed, #e1f2cb);
- }
+@media (min-width:768px) {
 
- .container {
-  width: 80%;
-  height: 100vh;
-  padding: 0 auto;
-  margin: 0 auto;
-  background: linear-gradient(to right, #a6f7ff, #e3f3dd);
+h1 {
+  font-size: 14vh;
 }
 
-#container-top {
+h2 {
+  font-size: 7vh;
+}
+
+/*#container-top {
   margin-top: 56px;
   background: linear-gradient(to right, #a6e7ed, #e1f2cb);
-  height: 100vh;
+  height: calc(100vh - 56px);
+  width: 80%;
 }
+*/
+/*#container-top .row-top-heading {
+  padding-top: 110px;
+}*/
 
 .coconut-img {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 14%;
 }
 
 .top-cloud {
-  height: 5.5rem;
-  width: 11rem;
-  opacity: 60%;
-  position: absolute;
-  right: 28vw;
-  top: 5vw;
+  height: 8rem;
+  width: 13rem;
+  right: 100px;
+  top: 120px;
 }
 
-.bottom-cloud{
-  height: 5.5rem;
-  width: 11rem;
-  opacity: 60%;
-  position: absolute;
-  left: 28vw;
-  bottom: 80vw;
+.bottom-cloud {
+  height: 7rem;
+  width: 12rem;
+  left: 55px;
+  bottom: 420px;
 }
 
-h1{
-  font-family: 'Great Vibes', cursive;
-  font-size: 10vh;
+.wave {
+  left: 150px;
+  bottom: -140px;
+  width: 60%;
 }
 
-h2{
-  font-size: 5vh;
+.tools-container {
+  height: auto
 }
 
-li {
-  list-style-type: none;
-}
 
-.content-personal li:before {
-  content: '\1f41a'; margin-left: -20px; margin-right: 10px;
-} 
 
-.fa-facebook-square {
-  color: #3b5998;
-}
-
-.fa-linkedin {
-  color: #0077b5;
+#container-projects {
+  height: auto;
 }
 
 .fab {
   font-size: 40px;
   padding: 0 3px;
+  color: #662200;
 }
 
-.btn-outline-warning {
-  border: 2px solid rgba(43, 113, 252, 0.5);
-  padding: 1px 6px;
-  margin: 6px;
-  background-color: rgba(225, 242, 203, 0.8);
-  color: #000;
-  font-size: 4.3vw;
+
+.react-btn, .contact-btn {
+  background: url(./images/seawave-gif.gif);
+  background-size: cover;
+  border-style: none;
 }
 
-.btn-outline-warning:hover {
-  background-color: #ffa270;
-  border: 2px solid #ffa270;
+.personal-img {
+  border: 3px solid #662200;
+  width: 80%;
+  border-radius: 0.5rem;
 }
 
-.content-personal {
-  height: 60vh;
-  background-color: linear-gradient(to right, #a6e7ed, #e1f2cb);
+.react-img, .api-img {
+  border: 2px solid #662200;
 }
-}*/
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+.btn-lg {
+  height: 2.5rem;
+  padding: 0;
+}
+
+.tools-row, .contact-row {
+  height: auto;
+}
+
+.img-tool {
+  border: 1px solid #662200; 
+  border-radius: 0.25rem; 
+  background: rgba(255, 245, 102, 0.2);
+  margin: 0.3rem;
+  height: 4.5rem;
+  width: 4.5rem;
+}
 
 
 
