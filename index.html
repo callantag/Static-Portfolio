@@ -59,10 +59,10 @@
     <img class="wave" src="./images/sea-wave.png">
 
     <div class="row row-top-heading position-relative justify-content-center align-items-center">
-      <div class="col mb-3">
+      <div class="col col-heading-top mb-3">
         <h1 class="embossed-text">I'm Grace.</h1>
       </div>
-      <div class="col">
+      <div class="col col-heading-top">
         <h2 class="embossed-text">a full stack web developer.</h2>
       </div>
 
@@ -74,15 +74,16 @@
 
   <!-- **aboutme container start -->
 
-  <div class="container embossed" id="container-aboutme">
+  <div class="container embossed position-relative" id="container-aboutme">
+     <img src="images/sandd.png" class="img-fluid sand-img">
     <div class="row aboutme-row text-center justify-content-center align-items-center">
       <div class="col mt-4">
-        <h3 class="text-center font-italic">&#127754; Hello, world! &#x1F980;</h3>
+        <h3 class="text-center font-italic hello">&#127754; Hello, world! &#x1F980;</h3>
       </div>
-      <div class="col-10 img-heading">
+      <div class="col-10 col-xl-12 img-heading">
         <img class="personal-img" src="./images/profile.jpg">
       </div>
-      <div class="col-11 aboutme-details text-justify mb-4">
+      <div class="col-11 col-xl-9 aboutme-details text-justify">
         <p>
           I love learning and challenging myself. It's very rewarding to solve problems and build interactive pages by coding. I consider web development craftmanship an art form and one I'm highly motivated to keep on getting better.
         </p>
@@ -98,30 +99,30 @@
   <div class="container text-center py-5 mt-5 embossed" id="container-projects">
     <h3 class="mb-4 embossed-text"> &#127754; Projects &#x1F980; </h3>
 
-    <div class="row justify-content-center flex-lg-row-reverse">
-      <div class="col-11 col-lg-6">
+    <div class="row justify-content-center align-items-center flex-lg-row-reverse">
+      <div class="col-11 col-md-10 col-lg-5">
         <img src="./images/api.jpg" class="rounded api-img img-fluid">
       </div>
 
-      <div class="col-11 col-lg-6">
+      <div class="col-11 col-md-10 col-lg-5">
         <h5 class="mt-3 embossed-text">Web API (Ecommerce)</h5>
-        <p class="text-justify">
+        <p class="text-justify projects-details">
           API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you're using an API.
         </p>
       </div>
     </div>
 
-    <div class="row justify-content-center  mt-4">
-      <div class="col-11 col-lg-6">
+    <div class="row justify-content-center align-items-center  mt-4">
+      <div class="col-11 col-md-10  col-lg-5">
         <img src="./images/react.jpg" class=" rounded react-img img-fluid">
       </div>
 
-      <div class="col-11 col-lg-6">
+      <div class="col-11 col-md-10 col-lg-5 pb-2">
         <h5 class="mt-3 embossed-text">React Frontend (Ecommerce)</h5>
-        <p class="text-justify pb-1">
+        <p class="text-justify projects-details pb-1">
           Front-end web development, also known as client-side development is the practice of producing HTML, CSS and Javascript for a website or Web Application so that a user can see and interact with them directly.
         </p>
-        <a href="#"><button class="react-btn btn-primary btn-lg btn-block embossed">Go to Site</button></a>
+        <a href="#"><button class="btn-primary btn-lg btn-block embossed">Go to Site</button></a>
       </div>
     </div>
   </div>
@@ -131,7 +132,7 @@
 
   <!-- **tools container start -->
 
-  <div class="container tools-container mt-5 py-auto text-center embossed" id="container-tools">
+  <div class="container tools-container py-5 mt-5 py-auto text-center embossed" id="container-tools">
     <div class="row tools-row align-items-center">
         <div class="col">
         <h3 class="embossed-text"> &#127754; Tools Used &#x1F980;</h3>
@@ -160,12 +161,12 @@
 
   <!-- contact container start-->
 
-  <div class="container embossed my-5" id="container-contact">
+  <div class="container embossed my-5 py-5" id="container-contact">
     <div class="row contact-row align-items-center">
-      <div class="col pt-5">
+      <div class="col">
         <h3 class="text-center embossed-text"> &#127754; Get in Touch &#x1F980;</h3> 
       </div>
-       <div class="col-11 contact-social text-center">
+       <div class="col-11 contact-social text-center mx-auto mt-3 mb-4">
         <a href="https://www.linkedin.com/in/grace-callanta-8a95a6109" target="_blank">
           <i class="fab fa-linkedin embossed-text"></i>
         </a>
@@ -180,7 +181,7 @@
         </a>
       </div>
 
-      <div class="col-11 col-sm-9 col-md-7 col-lg-5 pb-5 mx-auto">
+      <div class="col-11 col-sm-9 col-md-7 col-lg-5 mx-auto">
         <form>
           <div class="form-group">
             <label for="full-name">Full Name</label>
@@ -197,7 +198,7 @@
             <textarea id="txt-textarea" class="form-control"></textarea>
           </div>
 
-          <button type="submit" class="contact-btn btn-success btn-lg btn-block embossed">Send</button>
+          <button type="submit" class="btn-success btn-lg btn-block embossed">Send</button>
         </form>
       </div>
     </div>
