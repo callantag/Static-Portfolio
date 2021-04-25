@@ -261,6 +261,10 @@ a:link, a:visited, a:hover, a:active {
 
 }
 
+  .container {
+    min-width: 90%
+  }
+
 /*extra large device*/
 
 @media (min-width:1200px) {
